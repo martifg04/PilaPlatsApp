@@ -2,7 +2,7 @@
 
 Prototip funcional d'alta fidelitat de **Pila-Plats**, construït amb React 18, TypeScript, Vite, Tailwind CSS v4 i React Router.
 
-Repositori: https://github.com/martifg04/Pilaplatsfhic
+Repositori: https://github.com/martifg04/PilaPlatsApp
 
 ## Funcionalitat
 
