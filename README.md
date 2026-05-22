@@ -15,7 +15,7 @@ També incorpora inici de sessió amb Google o accés com a convidat, configurac
 
 ## Stack
 
-- React 18
+- React 18 
 - TypeScript
 - Vite
 - Tailwind CSS v4
