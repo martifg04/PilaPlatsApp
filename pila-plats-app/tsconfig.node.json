@@ -1,0 +1,14 @@
+{
+  // Projecte TypeScript auxiliar per validar vite.config.ts durant la build.
+  "compilerOptions": {
+    "composite": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "allowSyntheticDefaultImports": true,
+    // Qualsevol sortida auxiliar es manté dins de node_modules, fora de la superfície d'entrega.
+    "outDir": "./node_modules/.tmp/tsconfig-node",
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo"
+  },
+  "include": ["vite.config.ts"]
+}

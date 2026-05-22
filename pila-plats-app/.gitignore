@@ -1,0 +1,43 @@
+# Dependències instal·lades localment
+node_modules/
+!package-lock.json
+
+# Sortides de build
+dist/
+build/
+*.tsbuildinfo
+
+# Variables d'entorn
+.env
+.env.local
+.env.*.local
+
+# Fitxers d'IDE i editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+Thumbs.db
+
+# Logs
+*.log
+*.err
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Fitxers del sistema operatiu
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Memòria cau opcional de npm
+.npm
+
+# Historial opcional del REPL de Node
+.node_repl_history

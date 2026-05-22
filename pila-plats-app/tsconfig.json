@@ -1,0 +1,26 @@
+{
+  // Configuracio estricta del codi de client, la build valida tipus i Vite genera els fitxers finals.
+  "compilerOptions": {
+    "composite": true,
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ES2020"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    // Els metadades incrementals queden dins de dependències locals per no embrutar l'arrel del repo.
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.tsbuildinfo",
+    "jsx": "react-jsx"
+  },
+  "include": ["src"],
+  // La configuracio de Vite es comprova amb un projecte separat.
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
